@@ -1,0 +1,74 @@
+[poktype]{
+    border-radius: 8px;
+    padding: 3px;
+}
+  
+[poktype="NORMAL"] {
+    background-color: gray;
+}
+  
+[poktype="FIRE"] {
+    background-color: red;
+}
+  
+[poktype="FIGHTING"] {
+    background-color: orange;
+}
+  
+[poktype="WATER"] {
+    background-color: blue;
+    color: white;
+}
+  
+[poktype="FLYING"] {
+    background-color: CornflowerBlue;
+}
+  
+[poktype="GRASS"] {
+    background-color: green;
+}
+  
+[poktype="POISON"] {
+    background-color: BlueViolet;
+}
+  
+[poktype="ELECTRIC"] {
+    background-color: yellow;
+}
+  
+[poktype="ELECTRIC"] {
+    background-color: yellow;
+}
+  
+[poktype="GROUND"] {
+    background-color: Brown;
+}
+  
+[poktype="PSYCHIC"] {
+    background-color: DeepPink;
+}
+  
+[poktype="ROCK"] {
+    background-color: BurlyWood;
+}
+  
+[poktype="ICE"] {
+    background-color: Cyan;
+}
+  
+[poktype="BUG"] {
+    background-color: YellowGreen;
+}
+  
+[poktype="DRAGON"] {
+    background-color: RoyalBlue;
+}
+  
+[poktype="GHOST"] {
+    background-color: RebeccaPurple;
+}
+  
+[poktype="DARK"] {
+    background-color: DarkSlateBlue;
+}
+  

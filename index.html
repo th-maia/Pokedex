@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pokémon Search App</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./src/32px-Poké_Ball_icon.svg.png">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div class="base">
+      <div class="top">
+        <div class="baseCristal">
+          <div class="cristal">
+            <div class="cristalReflex"></div>
+          </div>
+        </div>
+        <div class="red"></div>
+        <div class="yellow"></div>
+        <div class="green"></div>
+        <img src="./src/pokedex.png" alt="pokedex logo" class="pokedexlogo"/>
+      </div>
+      <div class="baseScreen">
+        <div class="colums">
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+        <div class="screen">
+          <img id="sprite" />
+        </div>
+      </div>
+      <div class="search">
+      <input id="search-input" required placeholder="#ID or Pokemon Name" autofocus spellcheck="false"></input>
+      <button id="search-button">SEARCH</button>
+      </div>
+      <div class="pokeData colums">
+        <div class="dataLeft">
+          <div class="twoLines">
+            <p>Name: </p>
+            <span id="pokemon-name"> </span>
+          </div>
+          <p>#ID: <span id="pokemon-id"></span></p>
+          <p>Weight: <span id="weight"></span></p>
+          <p>Height: <span id="height"></span></p>
+          <div id="types">
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+    <table>
+        <tr>
+          <th>Base</th>
+          <th>Stats</th>
+        </tr>
+        <tr>
+          <th>HP</th>
+          <td id="hp"></td>
+        </tr>
+        <tr>
+          <th>Attack</th>
+          <td id="attack"></td>
+        </tr>
+          <th>Defense</th>  
+          <td id="defense"></td>
+        <tr>
+          <th>SP.Attack</th>
+          <td id="special-attack"></td>
+        </tr>
+        <tr>
+          <th>SP.Defense</th>
+          <td id="special-defense"></td>
+        </tr>
+        <tr>
+          <th>Speed</th>
+          <td id="speed"></td>
+        <tr>
+    </table>
+      </div>
+    </div>
+    <audio id="bgm">
+      <source src="./src/titleScreen.mp3" type="audio/mp3"/>
+    </audio>
+  </body>
+  <script src="./script.js"></script>
+</html>
