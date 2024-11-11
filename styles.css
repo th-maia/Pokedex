@@ -1,10 +1,18 @@
 @import url('./src/poktypes.css');
 
 body{
-  background-image: url(https://archives.bulbagarden.net/media/upload/7/7d/PE_Kanto_Map.png);
+  background-image: url("./src/PE_Kanto_Map.png");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   overflow: hidden;
+}
+
+
+@media (orientation: portrait) {
+  body{
+    background-size: auto, 100%;
+  }
 }
 
 .base{
