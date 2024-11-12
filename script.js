@@ -97,7 +97,7 @@ searchBtn.addEventListener("click", () => {
   pokemonSearch();
 });
 
-document.addEventListener("keypress", (event) => {
+document.addEventListener("change", (event) => {
   //music audio
   const bgm = document.getElementById("bgm");
   bgm.volume = 0.3;
